@@ -5,7 +5,8 @@
 1. Clone this repo - `git clone https://basil_dev@bitbucket.org/basil_dev/w-template.git`
 2. Enter to boilerplate directory - `cd w-template`
 3. Run `npm install`
-4. Done! You are awesome!
+4. Run `bower install`
+5. Done! You are awesome!
  
 ## Features
 - HTML5 ready

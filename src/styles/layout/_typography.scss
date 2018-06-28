@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 16px; // optimal for range of screen sizes
+}
+
+h1,
+h2
+{
+    // soft headings
+    font-weight: bold;
+}
+
+h1,
+h2,
+p
+{
+    //Line height - ~150% from current font size
+    line-height: 1.5em;
+    //margin is equal to current font size
+    margin: 1em 0;
+
+}
+
+h1
+{
+    // headers size increases by step 50% from main font size
+    font-size: 2rem; //200%
+    text-align: center;
+}
+
+h2
+{
+    font-size: 1.5rem; //150%
+}
+
+p
+{
+    text-align: left;
+    text-indent: 1em;
+    margin: 0 auto;
+    font-size: 1rem;
+    hyphens: auto;
+}
+
+.text
+{
+    display: block;
+    max-width: 40em; //Text blocks wide no more than 45-65 symbols
+    margin: 0 auto;
+}

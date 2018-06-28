@@ -1,0 +1,41 @@
+@import-normalize ;
+
+@import 'utils/_mixins';
+//
+//@import 'layout/*';
+//
+//@import 'modules/*';
+//
+//@import 'themes/*';
+@font-face {
+  font-family: Chango;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Chango Regular"), local(Chango-Regular), url("../webfonts/Chango-Regular.ttf") format("opentype");
+}
+
+p {
+  font-family: 'Chango';
+  font-weight: normal;
+  background: #EFEFEF;
+}
+
+h1 {
+  font-family: 'Diplomata';
+  color: red;
+}
+
+@import "layout/base";
+@import "layout/typography";
+
+//@import "vendors/bootstrap";
+
+@import "utils/helpers",
+"utils/mixins",
+"utils/queries",
+"utils/variables";
+
+@import "modules/buttons";
+@import "modules/carousel";
+
+//@import "themes/light";
